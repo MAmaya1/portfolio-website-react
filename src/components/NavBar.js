@@ -5,8 +5,8 @@ const NavBar = props => {
     return (
         <div>
             <NavLink exact to='/'>Home</NavLink>
+            <NavLink to='portfolio'>My Work</NavLink>
             {/* <NavLink>My Work</NavLink>
-            <NavLink>My Work</NavLink>
             <NavLink>My Work</NavLink> */}
         </div>
     )
