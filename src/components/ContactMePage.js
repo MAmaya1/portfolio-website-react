@@ -1,5 +1,9 @@
 import React from 'react';
 
+// Import Footer
+
+import Footer from './Footer';
+
 const ContactMePage = props => {
     return (
         <div>
@@ -11,6 +15,7 @@ const ContactMePage = props => {
                 <li><i className="fab icon-bottom fa-linkedin"/><a href="https://www.linkedin.com/in/marioamayaweb" target="_blank">marioamayaweb</a></li>
                 <li><i className="fab icon-bottom fa-github"/><a href="https://github.com/MAmaya1" target="_blank">MAmaya1</a></li>
             </ul>
+            <Footer />
         </div>
     )
 }

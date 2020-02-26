@@ -1,5 +1,9 @@
 import React from 'react';
 
+// Import Footer
+
+import Footer from './Footer';
+
 // Import Images
 
 import portrait from '../images/portrait.jpg'
@@ -28,6 +32,7 @@ const AboutMePage = props => {
                     <p>Local Urban Planning, Community Activism, Architectural Design, Model Building, Writing, Animation, Film Production, and Travel.</p>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
