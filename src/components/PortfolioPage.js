@@ -1,5 +1,9 @@
 import React from 'react';
 
+// Import Footer
+
+import Footer from './Footer';
+
 // Import Images
 
 import project1 from '../images/projects/project1.jpg';
@@ -38,6 +42,7 @@ const PortfolioPage = props => {
                     <a href="https://github.com/yelpfeelers/landing-pages" target="_blank"><i className="fab fa-github"></i> Github</a>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
