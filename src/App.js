@@ -8,6 +8,7 @@ import HomePage from './components/HomePage';
 import PortfolioPage from './components/PortfolioPage';
 import AboutMePage from './components/AboutMePage';
 import ContactMePage from './components/ContactMePage';
+import Footer from './components/Footer';
 
 // Import Styles
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/portfolio' component={PortfolioPage}/>
         <Route path='/about-me' component={AboutMePage}/>
         <Route path='/contact-me' component={ContactMePage}/>
+        <Footer />
       </div>
     </Router>
   );
