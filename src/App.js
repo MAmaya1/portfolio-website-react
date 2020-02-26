@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import HomePage from './components/HomePage';
 import PortfolioPage from './components/PortfolioPage';
 import AboutMePage from './components/AboutMePage';
+import ContactMePage from './components/ContactMePage';
 
 // Import Styles
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/' component={HomePage}/>
         <Route path='/portfolio' component={PortfolioPage}/>
         <Route path='/about-me' component={AboutMePage}/>
+        <Route path='/contact-me' component={ContactMePage}/>
       </div>
     </Router>
   );
