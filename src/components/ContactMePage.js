@@ -24,7 +24,7 @@ const LargeHeading = styled.h1`
     padding-bottom: 1.5rem;
 
     span {
-        color: #CC5418
+        color: #CC5418;
     }
 
     @media (max-width: 768px) {
