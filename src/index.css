@@ -11,8 +11,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #FFF;
   background: url(./images/background.jpg) fixed;
   background-size: cover;
+  min-width: 330px;
 }
 
 code {
