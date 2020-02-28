@@ -14,7 +14,7 @@ import ContactMePage from './components/ContactMePage';
 
 const AppWrapper = styled.div`
   background: rgba(31, 41, 58, 0.9);
-  height: 100vh;
+  min-height: 100vh;
 `
 
 function App() {
