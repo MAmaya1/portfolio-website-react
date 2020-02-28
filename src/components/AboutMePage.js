@@ -13,6 +13,7 @@ import portrait from '../images/portrait.jpg'
 
 const PageWrapper = styled.div`
     padding: 1.5rem 4rem 1.5rem 4rem;
+    min-height: calc(100vh - 120px);
 
     @media (max-width: 768px) {
         text-align: center;
@@ -118,30 +119,32 @@ const InfoBox = styled.div`
 
 const AboutMePage = props => {
     return (
-        <PageWrapper>
-            <LargeHeading>About <span>Me</span></LargeHeading>
-            <SmallHeading>Let me tell you a few things...</SmallHeading>
-            <AboutInfo>
-                <BioPic src={portrait} alt="Mario Amaya, React Developer" className="bio-pic"/>
-                <Bio>
-                    <h3>BIO</h3>
-                    <p>I am a React.js developer based in San Diego, and I have several years of experience as a highly-qualified project manager and customer service professional in the fields of multimedia and technology.</p>
-                </Bio>
-                <InfoBox className="box1">
-                    <h3>Technical Skills</h3>
-                    <p>React, Redux, React Native, React Hooks, React Styled Components, React Testing Library, Axios, NodeJS, Express, Knex, Jest, LESS/SASS</p>
-                </InfoBox>
-                <InfoBox className="box2">
-                    <h3>Professional Skills</h3>
-                    <p>Project Management, Leadership, Problem Solving, Employee Training, Task Delegation, Product Presentation, Time Management</p>
-                </InfoBox>
-                <InfoBox className="box3">
-                    <h3>Personal Interests</h3>
-                    <p>Local Urban Planning, Community Activism, Architectural Design, Model Building, Writing, Animation, Film Production, and Travel.</p>
-                </InfoBox>
-            </AboutInfo>
+        <>
+            <PageWrapper>
+                <LargeHeading>About <span>Me</span></LargeHeading>
+                <SmallHeading>Let me tell you a few things...</SmallHeading>
+                <AboutInfo>
+                    <BioPic src={portrait} alt="Mario Amaya, React Developer" className="bio-pic"/>
+                    <Bio>
+                        <h3>BIO</h3>
+                        <p>I am a React.js developer based in San Diego, and I have several years of experience as a highly-qualified project manager and customer service professional in the fields of multimedia and technology.</p>
+                    </Bio>
+                    <InfoBox className="box1">
+                        <h3>Technical Skills</h3>
+                        <p>React, Redux, React Native, React Hooks, React Styled Components, React Testing Library, Axios, NodeJS, Express, Knex, Jest, LESS/SASS</p>
+                    </InfoBox>
+                    <InfoBox className="box2">
+                        <h3>Professional Skills</h3>
+                        <p>Project Management, Leadership, Problem Solving, Employee Training, Task Delegation, Product Presentation, Time Management</p>
+                    </InfoBox>
+                    <InfoBox className="box3">
+                        <h3>Personal Interests</h3>
+                        <p>Local Urban Planning, Community Activism, Architectural Design, Model Building, Writing, Animation, Film Production, and Travel.</p>
+                    </InfoBox>
+                </AboutInfo>
+            </PageWrapper>
             <Footer />
-        </PageWrapper>
+        </>
     )
 }
 

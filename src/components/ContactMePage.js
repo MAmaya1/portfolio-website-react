@@ -10,6 +10,7 @@ import Footer from './Footer';
 
 const PageWrapper = styled.div`
     padding: 1.5rem 4rem 1.5rem 4rem;
+    min-height: calc(100vh - 120px);
 
     @media (max-width: 768px) {
         text-align: center;
@@ -38,7 +39,7 @@ const LargeHeading = styled.h1`
 const SmallHeading = styled.h2`
     font-size: 1.5rem;
     font-weight: 400;
-    background: #1F293a;
+    background: #1F293A;
     padding: 0.4rem;
     margin-bottom: 2rem;
 `
@@ -65,17 +66,19 @@ const ContactIcons = styled.ul`
 
 const ContactMePage = props => {
     return (
-        <PageWrapper>
-            <LargeHeading>Contact <span>Me</span></LargeHeading>
-            <SmallHeading>This is how you can reach me...</SmallHeading>
-            <ContactIcons>
-                <li><i className="far icon-bottom fa-envelope"/> <a>mario.amaya.web<wbr/>@gmail.com</a></li>
-                <li><i className="fas icon-bottom fa-phone"/> (619) 502-0073</li>
-                <li><i className="fab icon-bottom fa-linkedin"/> <a href="https://www.linkedin.com/in/marioamayaweb" target="_blank" rel="noopener noreferrer">marioamayaweb</a></li>
-                <li><i className="fab icon-bottom fa-github"/> <a href="https://github.com/MAmaya1" target="_blank" rel="noopener noreferrer">MAmaya1</a></li>
-            </ContactIcons>
+        <>
+            <PageWrapper>
+                <LargeHeading>Contact <span>Me</span></LargeHeading>
+                <SmallHeading>This is how you can reach me...</SmallHeading>
+                <ContactIcons>
+                    <li><i className="far icon-bottom fa-envelope"/> <a>mario.amaya.web<wbr/>@gmail.com</a></li>
+                    <li><i className="fas icon-bottom fa-phone"/> (619) 502-0073</li>
+                    <li><i className="fab icon-bottom fa-linkedin"/> <a href="https://www.linkedin.com/in/marioamayaweb" target="_blank" rel="noopener noreferrer">marioamayaweb</a></li>
+                    <li><i className="fab icon-bottom fa-github"/> <a href="https://github.com/MAmaya1" target="_blank" rel="noopener noreferrer">MAmaya1</a></li>
+                </ContactIcons>
+            </PageWrapper>
             <Footer />
-        </PageWrapper>
+        </>
     )
 }
 
