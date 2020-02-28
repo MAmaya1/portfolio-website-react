@@ -73,7 +73,6 @@ const PortfolioItem = styled.div`
     p {
         height: 7rem;
         padding-top: 1rem;
-        overflow: hidden;
 
         @media (max-width: 1360px) {
             height: 9rem;
@@ -85,7 +84,8 @@ const PortfolioItem = styled.div`
 
         @media (max-width: 500px) {
             height: auto;
-            padding-bottom: 1rem;
+            padding-bottom: 1.5rem;
+            line-height: 1.5;
         }
 
         a {
