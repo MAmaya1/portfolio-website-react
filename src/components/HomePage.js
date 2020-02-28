@@ -4,12 +4,14 @@ import styled from 'styled-components';
 // Styles
 
 const PageWrapper = styled.div`;
-    margin-top: 10rem;
-    padding: 4rem;
+    padding: 17.5rem 4rem 4rem 4rem;
 
     @media (max-width: 768px) {
         text-align: center;
-        margin-top: 4rem;
+    }
+
+    @media (max-width: 500px) {
+        padding-top: 10rem;
     }
 `
 

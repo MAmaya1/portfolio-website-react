@@ -1,10 +1,35 @@
 import React from 'react';
+import styled from 'styled-components';
+
+// Styles
+
+const MainFooter = styled.footer`
+    font-size: 1rem;
+    background: #1F293A;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    bottom: 0;
+    padding: 0 4rem 0 4rem;
+
+    span {
+        color: #CC5418;
+    }
+
+    @media (max-width: 1024px) {
+        text-align: center;
+    }
+
+    @media (max-width: 500px) {
+        padding: 0 3rem 0 3rem;
+    }
+`
 
 const Footer = props => {
     return (
-        <div>
-            <h5>Mario Amaya | React Developer</h5>
-        </div>
+        <MainFooter>
+            <h5>Mario Amaya | <span>React Developer</span></h5>
+        </MainFooter>
     )
 }
 
