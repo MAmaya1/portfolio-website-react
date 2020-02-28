@@ -84,6 +84,10 @@ const BioPic = styled.img`
     border: 4px solid #CC5418;
     border-radius: 50%;
     margin: auto;
+
+    @media (max-width: 390px) {
+        width: 100%;
+    }
 `
 
 const Bio = styled.div`
