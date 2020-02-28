@@ -15,8 +15,8 @@ import project4 from '../images/projects/project4.jpg';
 // Styles
 
 const PageWrapper = styled.div`
-    padding: 1.5rem 4rem 1.5rem 4rem;
-    min-height: calc(100vh - 120px);
+    padding: 5rem 4rem 1.5rem 4rem;
+    min-height: calc(100vh - 60px);
 
     @media (max-width: 768px) {
         text-align: center;
@@ -116,10 +116,6 @@ const Button = styled.a`
         transition: all 0.4s ease;
     }
 `
-
-// const Button = styled btn`
-
-// `
 
 const PortfolioPage = props => {
     return (

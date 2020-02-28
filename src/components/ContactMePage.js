@@ -9,8 +9,8 @@ import Footer from './Footer';
 // Styles
 
 const PageWrapper = styled.div`
-    padding: 1.5rem 4rem 1.5rem 4rem;
-    min-height: calc(100vh - 120px);
+    padding: 5rem 4rem 1.5rem 4rem;
+    min-height: calc(100vh - 60px);
 
     @media (max-width: 768px) {
         text-align: center;
@@ -50,7 +50,7 @@ const ContactIcons = styled.ul`
     padding 1rem;
 
     @media (max-width: 500px) {
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: left;
         padding: 0 0 1rem 0;
     }

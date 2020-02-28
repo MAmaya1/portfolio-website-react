@@ -19,6 +19,10 @@ const MainFooter = styled.footer`
     @media (max-width: 1024px) {
         text-align: center;
     }
+
+    @media (max-width: 500px) {
+        padding: 0 3rem 0 3rem;
+    }
 `
 
 const Footer = props => {
