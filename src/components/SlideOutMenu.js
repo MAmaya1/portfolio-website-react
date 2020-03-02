@@ -15,14 +15,6 @@ const Menu = styled.div`
     background: rgba(31, 41, 58, 0.9);
     z-index: 3;
 
-    .open {
-        right: 0;
-    }
-
-    .closed {
-        right: -100vw;
-    }
-
     @media (min-width: 769px) {
         display: none;
     }
@@ -54,7 +46,7 @@ const Links = styled.ul`
 
 const SlideOutMenu = props => {
     return (
-        <Menu className={props.menuOpen ? 'open' : 'closed'}>
+        <Menu>
             <Links>
                 <li><NavLink exact to='/' onClick={() => props.toggleMenu(false)}>HOME</NavLink></li>
                 <li><NavLink to='/portfolio' onClick={() => props.toggleMenu(false)}>MY WORK</NavLink></li>
