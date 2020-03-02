@@ -63,7 +63,7 @@ const HomePage = props => {
             <Icons>
                 <a href="https://www.linkedin.com/in/marioamayaweb" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x" /></a>
                 <a href="https://www.github.com/mamaya1" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x" /></a>
-                <a href="mailto:mario.amaya.web@gmail.com"><i class="far fa-envelope fa-2x" /></a>
+                <a href="mailto:mario.amaya.web@gmail.com"><i className="far fa-envelope fa-2x" /></a>
             </Icons>
         </PageWrapper>
     )
