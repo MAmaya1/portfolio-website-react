@@ -4,9 +4,8 @@ import '@testing-library/jest-dom/extend-expect';
 
 // Import Component
 import AboutMePage from '../components/AboutMePage';
-import { get } from 'https';
 
-// afterEach(cleanup);
+afterEach(cleanup);
 
 describe('About Me component', () => {
     it('should render component without crashing', () => {
