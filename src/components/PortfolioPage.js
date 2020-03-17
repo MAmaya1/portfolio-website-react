@@ -100,6 +100,7 @@ const PortfolioItem = styled.div`
         &:hover {
             outline: 4px solid #CC5418;
             padding: 0;
+            transition: all 0.2s ease;
         }
     }
 `
