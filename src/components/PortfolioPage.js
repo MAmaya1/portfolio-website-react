@@ -126,26 +126,26 @@ const PortfolioPage = props => {
                 <Projects>
                     <PortfolioItem>
                         <h3>FounderGrants.com</h3>
-                        <p>Developed for <a href="https://www.1517fund.com/" target="_blank" rel="noopener noreferrer">1517 Fund</a>, Founder Grants provides a platform for developers and startups to connect with available grants, and procure project funding.</p>
-                        <a href="https://www.foundergrants.com/" target="_blank" rel="noopener noreferrer"><img src={project1} alt="Founder Grants Screenshot"/></a>
+                        <p>Developed for <a href="https://www.1517fund.com/" target="_blank" rel="noopener noreferrer" data-testid="1517Url">1517 Fund</a>, Founder Grants provides a platform for developers and startups to connect with available grants, and procure project funding.</p>
+                        <a href="https://www.foundergrants.com/" target="_blank" rel="noopener noreferrer" data-testid="founderGrantsUrl"><img src={project1} alt="Founder Grants Screenshot"/></a>
                         <Button href="https://github.com/Lambda-School-Labs/startup-grant-database-fe" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
                     </PortfolioItem>
                     <PortfolioItem>
                         <h3>IntelliFlight</h3>
                         <p>IntelliFlight is a flight planning app that allows pilots to view and create pilot weather reports (PIREPS) along their route.</p>
-                        <a href="https://www.intelliflight.app/" target="_blank" rel="noopener noreferrer"><img src={project2} alt="IntelliFlight Screenshot"/></a>
+                        <a href="https://www.intelliflight.app/" target="_blank" rel="noopener noreferrer" data-testid="intelliFlightUrl"><img src={project2} alt="IntelliFlight Screenshot"/></a>
                         <Button href="https://github.com/labs13-intelliflight" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
                     </PortfolioItem>
                     <PortfolioItem>
                         <h3>Foodie Fun</h3>
                         <p>Foodie Fun lets you rank and review your favorite restaurants, and meals.</p>
-                        <a href="https://elated-pasteur-bcba0d.netlify.com/" target="_blank" rel="noopener noreferrer"><img src={project3} alt="Foodie Fun Screenshot"/></a>
+                        <a href="https://elated-pasteur-bcba0d.netlify.com/" target="_blank" rel="noopener noreferrer" data-testid="foodieFunUrl"><img src={project3} alt="Foodie Fun Screenshot"/></a>
                         <Button href="https://github.com/bw-foodie-fun/Frontend-Foodie-Fun" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
                     </PortfolioItem>
                     <PortfolioItem>
                         <h3>Yelp Tacopedia</h3>
                         <p>Powered by Yelp and Mota Analytica, Yelp Tacopedia uses sentiment analysis to find you the best tacos in town.</p>
-                        <a href="https://yelp-tacopedia.netlify.com/" target="_blank" rel="noopener noreferrer"><img src={project4} alt="Yelp Tacopedia Screenshot"/></a>
+                        <a href="https://yelp-tacopedia.netlify.com/" target="_blank" rel="noopener noreferrer" data-testid="tacopediaUrl"><img src={project4} alt="Yelp Tacopedia Screenshot"/></a>
                         <Button href="https://github.com/yelpfeelers/landing-pages" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
                     </PortfolioItem>
                 </Projects>
