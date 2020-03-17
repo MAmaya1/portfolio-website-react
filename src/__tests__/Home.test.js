@@ -17,7 +17,7 @@ describe('HomePage component', () => {
         expect(wrapper).toMatchSnapshot();
     });
 
-    it('should render an heading with my name', () => {
+    it('should render a heading with my name', () => {
         const { getByText } = render(<HomePage />);
         expect(getByText('Mario')).toBeInTheDocument();
     });

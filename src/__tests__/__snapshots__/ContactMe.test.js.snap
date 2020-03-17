@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactMe component should match Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxirZ cWwpYu"
+      >
+        <h1
+          class="sc-AxiKw fXcBkv"
+        >
+          Contact 
+          <span>
+            Me
+          </span>
+        </h1>
+        <h2
+          class="sc-AxhCb fPoYls"
+        >
+          This is how you can reach me...
+        </h2>
+        <ul
+          class="sc-AxhUy eKHqWi"
+        >
+          <li>
+            <i
+              class="far icon-bottom fa-envelope"
+            />
+             
+            <a
+              href="mailto:mario.amaya.web@gmail.com"
+            >
+              mario.amaya.web
+              <wbr />
+              @gmail.com
+            </a>
+          </li>
+          <li>
+            <i
+              class="fas icon-bottom fa-phone"
+            />
+             (619) 502-0073
+          </li>
+          <li>
+            <i
+              class="fab icon-bottom fa-linkedin"
+            />
+             
+            <a
+              href="https://www.linkedin.com/in/marioamayaweb"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              marioamayaweb
+            </a>
+          </li>
+          <li>
+            <i
+              class="fab icon-bottom fa-github"
+            />
+             
+            <a
+              href="https://github.com/MAmaya1"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              MAmaya1
+            </a>
+          </li>
+        </ul>
+      </div>
+      <footer
+        class="sc-AxjAm hnGFdg"
+      >
+        <h5>
+          Mario Amaya | 
+          <span>
+            React Developer
+          </span>
+        </h5>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ cWwpYu"
+    >
+      <h1
+        class="sc-AxiKw fXcBkv"
+      >
+        Contact 
+        <span>
+          Me
+        </span>
+      </h1>
+      <h2
+        class="sc-AxhCb fPoYls"
+      >
+        This is how you can reach me...
+      </h2>
+      <ul
+        class="sc-AxhUy eKHqWi"
+      >
+        <li>
+          <i
+            class="far icon-bottom fa-envelope"
+          />
+           
+          <a
+            href="mailto:mario.amaya.web@gmail.com"
+          >
+            mario.amaya.web
+            <wbr />
+            @gmail.com
+          </a>
+        </li>
+        <li>
+          <i
+            class="fas icon-bottom fa-phone"
+          />
+           (619) 502-0073
+        </li>
+        <li>
+          <i
+            class="fab icon-bottom fa-linkedin"
+          />
+           
+          <a
+            href="https://www.linkedin.com/in/marioamayaweb"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            marioamayaweb
+          </a>
+        </li>
+        <li>
+          <i
+            class="fab icon-bottom fa-github"
+          />
+           
+          <a
+            href="https://github.com/MAmaya1"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            MAmaya1
+          </a>
+        </li>
+      </ul>
+    </div>
+    <footer
+      class="sc-AxjAm hnGFdg"
+    >
+      <h5>
+        Mario Amaya | 
+        <span>
+          React Developer
+        </span>
+      </h5>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
