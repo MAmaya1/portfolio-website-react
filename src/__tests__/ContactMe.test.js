@@ -19,12 +19,12 @@ describe('ContactMe component', () => {
 
     it('should render an appropriate heading', () => {
         const { getByText } = render(<ContactMe />);
-        expect(getByText('Contact')).toBeInTheDocument();
+        expect(getByText(/contact/i)).toBeInTheDocument();
     });
 
     it('should have a link to the correct contact email', () => {
         const { getByText } = render(<ContactMe />);
-        expect(getByText('mario.amaya.web@gmail.com')).toHaveAttribute('href', 'mailto:mario.amaya.web@gmail.com');
+        expect(getByText(/mario.amaya.web@gmail.com/i)).toHaveAttribute('href', 'mailto:mario.amaya.web@gmail.com');
     });
 
     it('should render the correct phone number', () => {
@@ -34,11 +34,11 @@ describe('ContactMe component', () => {
 
     it('should contain a link to the correct LinkedIn profile', () => {
         const { getByText } = render(<ContactMe />);
-        expect(getByText('marioamayaweb')).toHaveAttribute('href', 'https://www.linkedin.com/in/marioamayaweb');
+        expect(getByText(/marioamayaweb/i)).toHaveAttribute('href', 'https://www.linkedin.com/in/marioamayaweb');
     });
 
     it('should contain a link to the correct GitHub profile', () => {
         const { getByText } = render(<ContactMe />);
-        expect(getByText('MAmaya1')).toHaveAttribute('href', 'https://github.com/MAmaya1');
+        expect(getByText(/mamaya1/i)).toHaveAttribute('href', 'https://github.com/MAmaya1');
     });
 });

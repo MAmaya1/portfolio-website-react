@@ -19,26 +19,26 @@ describe('HomePage component', () => {
 
     it('should render a heading with my name', () => {
         const { getByText } = render(<HomePage />);
-        expect(getByText('Mario')).toBeInTheDocument();
+        expect(getByText(/mario/i)).toBeInTheDocument();
     });
 
     it('should render a subheading with a job title', () => {
         const { getByText } = render(<HomePage />);
-        expect(getByText('React Developer')).toBeInTheDocument();
+        expect(getByText(/react developer/i)).toBeInTheDocument();
     });
 
     it('should have a valid link to LinkedIn profile', () => {
         const { getByTestId } = render(<HomePage />);
-        expect(getByTestId('linkedIn')).toHaveAttribute('href', 'https://www.linkedin.com/in/marioamayaweb');
+        expect(getByTestId(/linkedin/i)).toHaveAttribute('href', 'https://www.linkedin.com/in/marioamayaweb');
     });
 
     it('should have a valid link to GitHub profile', () => {
         const { getByTestId } = render(<HomePage />);
-        expect(getByTestId('github')).toHaveAttribute('href', 'https://www.github.com/mamaya1');
+        expect(getByTestId(/github/i)).toHaveAttribute('href', 'https://www.github.com/mamaya1');
     });
 
     it('should have a valid link to Email', () => {
         const { getByTestId } = render(<HomePage />);
-        expect(getByTestId('email')).toHaveAttribute('href', 'mailto:mario.amaya.web@gmail.com');
+        expect(getByTestId(/email/i)).toHaveAttribute('href', 'mailto:mario.amaya.web@gmail.com');
     });
 })

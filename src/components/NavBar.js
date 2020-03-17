@@ -64,7 +64,7 @@ const Links = styled.div`
     }
 `
 
-// NavBar Components
+// NavBar Component
 
 const NavBar = props => {
     return (
@@ -81,20 +81,5 @@ const NavBar = props => {
         </MainNav>
     )
 }
-
-// Possible transparent NavBar for HomePage
-
-// export const HomeNavBar = props => {
-//     return(
-//         <HomeNav>
-//             <Links>
-//                 <NavLink exact to='/'>HOME</NavLink>
-//                 <NavLink to='/portfolio'>MY WORK</NavLink>
-//                 <NavLink to='/about-me'>ABOUT ME</NavLink>
-//                 <NavLink to='/contact-me'>CONTACT</NavLink>
-//             </Links>
-//         </HomeNav>
-//     )
-// }
 
 export default NavBar;
