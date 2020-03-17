@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Me component should match Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxirZ cWwpYu"
+      >
+        <h1
+          class="sc-AxiKw fXcBkv"
+        >
+          About 
+          <span>
+            Me
+          </span>
+        </h1>
+        <h2
+          class="sc-AxhCb fPoYls"
+        >
+          Let me tell you a few things...
+        </h2>
+        <div
+          class="sc-AxhUy cfLSnK"
+        >
+          <img
+            alt="Mario Amaya, React Developer"
+            class="sc-AxgMl iJLcUn bio-pic"
+            src="portrait.jpg"
+          />
+          <div
+            class="sc-AxheI jVkjRL"
+          >
+            <h3>
+              BIO
+            </h3>
+            <p>
+              I am a React.js developer based in San Diego, and I have several years of experience as a highly-qualified project manager and customer service professional in the fields of multimedia and technology.
+            </p>
+          </div>
+          <div
+            class="sc-Axmtr bejfja box1"
+          >
+            <h3>
+              Technical Skills
+            </h3>
+            <p>
+              React, Redux, React Native, React Hooks, React Styled Components, React Testing Library, Axios, NodeJS, Express, Knex, Jest, LESS/SASS
+            </p>
+          </div>
+          <div
+            class="sc-Axmtr bejfja box2"
+          >
+            <h3>
+              Professional Skills
+            </h3>
+            <p>
+              Project Management, Leadership, Problem Solving, Employee Training, Task Delegation, Product Presentation, Time Management
+            </p>
+          </div>
+          <div
+            class="sc-Axmtr bejfja box3"
+          >
+            <h3>
+              Personal Interests
+            </h3>
+            <p>
+              Local Urban Planning, Community Activism, Architectural Design, Model Building, Writing, Animation, Film Production, and Travel.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="sc-AxjAm hnGFdg"
+      >
+        <h5>
+          Mario Amaya | 
+          <span>
+            React Developer
+          </span>
+        </h5>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ cWwpYu"
+    >
+      <h1
+        class="sc-AxiKw fXcBkv"
+      >
+        About 
+        <span>
+          Me
+        </span>
+      </h1>
+      <h2
+        class="sc-AxhCb fPoYls"
+      >
+        Let me tell you a few things...
+      </h2>
+      <div
+        class="sc-AxhUy cfLSnK"
+      >
+        <img
+          alt="Mario Amaya, React Developer"
+          class="sc-AxgMl iJLcUn bio-pic"
+          src="portrait.jpg"
+        />
+        <div
+          class="sc-AxheI jVkjRL"
+        >
+          <h3>
+            BIO
+          </h3>
+          <p>
+            I am a React.js developer based in San Diego, and I have several years of experience as a highly-qualified project manager and customer service professional in the fields of multimedia and technology.
+          </p>
+        </div>
+        <div
+          class="sc-Axmtr bejfja box1"
+        >
+          <h3>
+            Technical Skills
+          </h3>
+          <p>
+            React, Redux, React Native, React Hooks, React Styled Components, React Testing Library, Axios, NodeJS, Express, Knex, Jest, LESS/SASS
+          </p>
+        </div>
+        <div
+          class="sc-Axmtr bejfja box2"
+        >
+          <h3>
+            Professional Skills
+          </h3>
+          <p>
+            Project Management, Leadership, Problem Solving, Employee Training, Task Delegation, Product Presentation, Time Management
+          </p>
+        </div>
+        <div
+          class="sc-Axmtr bejfja box3"
+        >
+          <h3>
+            Personal Interests
+          </h3>
+          <p>
+            Local Urban Planning, Community Activism, Architectural Design, Model Building, Writing, Animation, Film Production, and Travel.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="sc-AxjAm hnGFdg"
+    >
+      <h5>
+        Mario Amaya | 
+        <span>
+          React Developer
+        </span>
+      </h5>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
