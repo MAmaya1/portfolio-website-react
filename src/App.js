@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 
 // Import Components
@@ -34,10 +34,13 @@ function App() {
           menuOpen={menuOpen}
           toggleMenu={toggleMenu}
         />
-        <Route exact path='/' component={HomePage}/>
-        <Route path='/portfolio' component={PortfolioPage}/>
-        <Route path='/about-me' component={AboutMePage}/>
-        <Route path='/contact-me' component={ContactMePage}/>
+        <Switch>
+          <Route exact path='/' component={HomePage}/>
+          <Route path='/portfolio' component={PortfolioPage}/>
+          <Route path='/about-me' component={AboutMePage}/>
+          <Route path='/contact-me' component={ContactMePage}/>
+          <Route component={HomePage}/>
+        </Switch>
       </AppWrapper>
     </Router>
   );
