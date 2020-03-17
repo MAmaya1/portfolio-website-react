@@ -61,9 +61,9 @@ const HomePage = props => {
             <LargeHeading>Mario <span>Amaya</span></LargeHeading>
             <SmallHeading>React Developer</SmallHeading>
             <Icons>
-                <a href="https://www.linkedin.com/in/marioamayaweb" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x" /></a>
-                <a href="https://www.github.com/mamaya1" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x" /></a>
-                <a href="mailto:mario.amaya.web@gmail.com"><i className="far fa-envelope fa-2x" /></a>
+                <a href="https://www.linkedin.com/in/marioamayaweb" target="_blank" rel="noopener noreferrer" data-testid='linkedIn'><i className="fab fa-linkedin fa-2x" /></a>
+                <a href="https://www.github.com/mamaya1" target="_blank" rel="noopener noreferrer" data-testid='github'><i className="fab fa-github fa-2x" /></a>
+                <a href="mailto:mario.amaya.web@gmail.com" data-testid='email'><i className="far fa-envelope fa-2x" /></a>
             </Icons>
         </PageWrapper>
     )

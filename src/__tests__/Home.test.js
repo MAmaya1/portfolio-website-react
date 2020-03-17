@@ -26,4 +26,19 @@ describe('HomePage component', () => {
         const { getByText } = render(<HomePage />);
         expect(getByText('React Developer')).toBeInTheDocument();
     });
+
+    it('should have a valid link to LinkedIn profile', () => {
+        const { getByTestId } = render(<HomePage />);
+        expect(getByTestId('linkedIn')).toHaveAttribute('href', 'https://www.linkedin.com/in/marioamayaweb');
+    });
+
+    it('should have a valid link to GitHub profile', () => {
+        const { getByTestId } = render(<HomePage />);
+        expect(getByTestId('github')).toHaveAttribute('href', 'https://www.github.com/mamaya1');
+    });
+
+    it('should have a valid link to Email', () => {
+        const { getByTestId } = render(<HomePage />);
+        expect(getByTestId('email')).toHaveAttribute('href', 'mailto:mario.amaya.web@gmail.com');
+    });
 })

@@ -25,6 +25,7 @@ Object {
           class="sc-AxhCb RWWeu"
         >
           <a
+            data-testid="linkedIn"
             href="https://www.linkedin.com/in/marioamayaweb"
             rel="noopener noreferrer"
             target="_blank"
@@ -34,6 +35,7 @@ Object {
             />
           </a>
           <a
+            data-testid="github"
             href="https://www.github.com/mamaya1"
             rel="noopener noreferrer"
             target="_blank"
@@ -43,6 +45,7 @@ Object {
             />
           </a>
           <a
+            data-testid="email"
             href="mailto:mario.amaya.web@gmail.com"
           >
             <i
@@ -74,6 +77,7 @@ Object {
         class="sc-AxhCb RWWeu"
       >
         <a
+          data-testid="linkedIn"
           href="https://www.linkedin.com/in/marioamayaweb"
           rel="noopener noreferrer"
           target="_blank"
@@ -83,6 +87,7 @@ Object {
           />
         </a>
         <a
+          data-testid="github"
           href="https://www.github.com/mamaya1"
           rel="noopener noreferrer"
           target="_blank"
@@ -92,6 +97,7 @@ Object {
           />
         </a>
         <a
+          data-testid="email"
           href="mailto:mario.amaya.web@gmail.com"
         >
           <i
