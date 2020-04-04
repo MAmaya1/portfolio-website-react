@@ -15,31 +15,41 @@ describe('Portfolio Page component', () => {
     it('should match Snapshot', () => {
         const wrapper = (<Portfolio />);
         expect(wrapper).toMatchSnapshot();
-    })
+    });
+
+    it('should render a title for Find My Reps', () => {
+        const { getByText } = render(<Portfolio />);
+        expect(getByText('Find My Reps')).toBeInTheDocument();
+    });
 
     it('should render a title for Founder Grants', () => {
-        const { getByText }= render(<Portfolio />);
+        const { getByText } = render(<Portfolio />);
         expect(getByText('FounderGrants.com')).toBeInTheDocument();
     });
 
     it('should render a title for IntelliFlight', () => {
-        const { getByText }= render(<Portfolio />);
+        const { getByText } = render(<Portfolio />);
         expect(getByText('IntelliFlight')).toBeInTheDocument();
     });
 
     it('should render a title for Foodie Fun', () => {
-        const { getByText }= render(<Portfolio />);
+        const { getByText } = render(<Portfolio />);
         expect(getByText('Foodie Fun')).toBeInTheDocument();
     });
 
     it('should render a title for Tacopedia', () => {
-        const { getByText }= render(<Portfolio />);
+        const { getByText } = render(<Portfolio />);
         expect(getByText('Yelp Tacopedia')).toBeInTheDocument();
     });
 
     it('should contain correct link to 1517 Fund url', () => {
         const { getByTestId } = render(<Portfolio />);
         expect(getByTestId('1517Url')).toHaveAttribute('href', 'https://www.1517fund.com/')
+    });
+
+    it('should contain correct link to Google Play url', () => {
+        const { getByTestId } = render(<Portfolio />);
+        expect(getByTestId('findMyRepsUrl')).toHaveAttribute('href', 'https://play.google.com/store/apps/details?id=com.marioamayasd.find_my_reps')
     });
 
     it('should contain correct link to Founder Grants url', () => {

@@ -11,6 +11,7 @@ import project1 from '../images/projects/project1.jpg';
 import project2 from '../images/projects/project2.jpg';
 import project3 from '../images/projects/project3.jpg';
 import project4 from '../images/projects/project4.jpg';
+import screenshot from '../images/projects/screenshot.png';
 
 // Styles
 
@@ -125,6 +126,12 @@ const PortfolioPage = props => {
                 <LargeHeading>My <span>Work</span></LargeHeading>
                 <SmallHeading>Check out some of my projects...</SmallHeading>
                 <Projects>
+                    <PortfolioItem>
+                        <h3>Find My Reps</h3>
+                        <p>Find My Reps compiles an organized list of your elected officials, and their contact information, simply by entering your address.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.marioamayasd.find_my_reps" target="_blank" rel="noopener noreferrer" data-testid="findMyRepsUrl"><img src={screenshot} alt="Find My Reps Feature Image"/></a>
+                        <Button href="https://github.com/MAmaya1/find-my-reps" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
+                    </PortfolioItem>
                     <PortfolioItem>
                         <h3>FounderGrants.com</h3>
                         <p>Developed for <a href="https://www.1517fund.com/" target="_blank" rel="noopener noreferrer" data-testid="1517Url">1517 Fund</a>, Founder Grants provides a platform for developers and startups to connect with available grants, and procure project funding.</p>
