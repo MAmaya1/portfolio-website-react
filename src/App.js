@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
+import ReactGa from 'react-ga';
 
 // Import Components
 
@@ -21,6 +22,13 @@ const AppWrapper = styled.div`
 function App() {
 
   const [menuOpen, toggleMenu] = useState(false);
+
+  useEffect(() => {
+    // Configure Google Analytics
+    ReactGa.initialize(`${process.env.REACT_APP_TRACKING_ID}`);
+    // Report Page View
+    ReactGa.pageview(window.location.pathname + window.location.searchS)
+  }, []);
 
   return (
     <Router>
