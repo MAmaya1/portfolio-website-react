@@ -129,7 +129,7 @@ const PortfolioPage = props => {
                     <PortfolioItem>
                         <h3>Find My Reps</h3>
                         <p>Find My Reps compiles an organized list of your elected officials, and their contact information, simply by entering your address.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.marioamayasd.find_my_reps" target="_blank" rel="noopener noreferrer" data-testid="findMyRepsUrl"><img src={screenshot} alt="Find My Reps Feature Image"/></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.marioamayasd.find_my_reps" target="_blank" rel="noopener noreferrer" data-testid="findMyRepsUrl"><img src={screenshot} alt="Find My Reps banner"/></a>
                         <Button href="https://github.com/MAmaya1/find-my-reps" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> View GitHub</Button>
                     </PortfolioItem>
                     <PortfolioItem>
