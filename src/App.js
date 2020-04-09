@@ -27,8 +27,8 @@ function App() {
     // Configure Google Analytics
     ReactGa.initialize(`${process.env.REACT_APP_TRACKING_ID}`);
     // Report Page View
-    ReactGa.pageview(window.location.pathname + window.location.searchS)
-  }, []);
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  });
 
   return (
     <Router>
