@@ -127,7 +127,7 @@ const AboutMePage = props => {
                     <BioPic src={portrait} alt="Mario Amaya, React Developer" className="bio-pic"/>
                     <Bio>
                         <h3>BIO</h3>
-                        <p>I am a React.js developer based in San Diego, and I have several years of experience as a highly-qualified project manager and customer service professional in the fields of multimedia and technology.</p>
+                        <p>I am React developer in San Diego looking to join a team of creative, talented engineers.</p>
                     </Bio>
                     <InfoBox className="box1">
                         <h3>Technical Skills</h3>
